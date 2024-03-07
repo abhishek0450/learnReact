@@ -6,7 +6,8 @@ function Input() {
 
     function click(e){
         e.preventDefault(); // prevents the default action of the form, which is to refresh the page
-        console.log(name);
+        console.log("this is"+ " " + name.firstName + " " + name.lastName);
+        
     }
   
     //onChange is important for input field as it will change the value of the input field
